@@ -9,6 +9,12 @@ export class Curtidas extends Entity {
   })
   id?: number;
 
+  @property({
+    type: 'number',
+    required: true,
+  })
+  id_post: number;
+
 
   constructor(data?: Partial<Curtidas>) {
     super(data);

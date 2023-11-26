@@ -10,6 +10,18 @@ export class Comentarios extends Entity {
   id?: number;
 
   @property({
+    type: 'number',
+    required: true,
+  })
+  id_post: number;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  nome: string;
+
+  @property({
     type: 'string',
     required: true,
   })
