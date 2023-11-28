@@ -1,3 +1,6 @@
+# site rgb
+https://github.com/igorlobato/rgb-site
+
 # apirgb
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
